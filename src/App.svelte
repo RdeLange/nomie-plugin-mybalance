@@ -89,7 +89,7 @@
       if (loading) {
         inNomie = false;
       }
-    }, 700);
+    }, 4000);
   }
 
   // change theme
