@@ -88,11 +88,11 @@
       else {theme = "g10"} 
     }})
 
-    setTimeout(() => {
-      if (loading) {
-        inNomie = false;
-      }
-    }, 400);
+ //   setTimeout(() => {
+ //     if (loading) {
+ //       inNomie = false;
+ //     }
+ //   }, 400);
   }
 
   // change theme
