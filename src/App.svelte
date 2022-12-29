@@ -248,7 +248,10 @@ return result;
  }
 
  function onLoaded() {
-  if (!plugin) {
+  setTimeout(()=>{
+  if (plugin.prefs == undefined) {
+    window.location.reload()}},2000);
+  /*if (!plugin) {
   plugin = new NomiePlugin({
     name: pluginname,
         emoji: pluginemoji,
@@ -260,7 +263,7 @@ return result;
         addToMoreMenu: true,
         addToWidgets: true,
       })
-  }
+  } */
 }
 
  onMount(async () => {
