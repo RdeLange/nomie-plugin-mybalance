@@ -99,7 +99,7 @@ span.bar {
   <span id="third" class="bar" style="height:{widgetparams[2][1]};"><p class="label">{widgetparams[2][0]}</p></span>
   <span id="fourth" class="bar" style="height:{widgetparams[3][1]};"><p class="label">{widgetparams[3][0]}</p></span>
   <span id="five" class="bar" style="height:{widgetparams[4][1]};"><p class="label">{widgetparams[4][0]}</p></span>
-  <span id="six" class="bar" style="height:{widgetparams[5][1]};"><p class="label">{widgetparams[4][0]}</p></span>
+  <span id="six" class="bar" style="height:{widgetparams[5][1]};"><p class="label">{widgetparams[5][0]}</p></span>
   <span id="seven" class="bar" style="height:{widgetparams[6][1]};"><p class="label">{widgetparams[6][0]}</p></span>
   <span id="eight" class="bar" style="height:{widgetparams[7][1]};"><p class="label">{widgetparams[7][0]}</p></span>
   
