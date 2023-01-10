@@ -94,7 +94,7 @@
    function exitEdit(){
         dispatch("exitedit");
         open = false;
-    }
+    } //not used
 
     function saveEdit(){
         if (mbi2edit.calculations.length < 1) {

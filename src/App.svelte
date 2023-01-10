@@ -77,6 +77,24 @@
         mbis = mbisinit
       }
       mbisbaseline = mbis;
+      
+      // lets check if loaded data, otherwise try again after 2 secs
+
+      if (mbis == mbisinit) {
+        setTimeout(async()=>{
+          mbis = await plugin.storage.getItem('mbis') || mbisinit;
+      if (mbis.length == 0){
+        mbis = mbisinit
+      }
+      mbisbaseline = mbis;
+        },2000)
+      }
+
+
+      if (mbis.length == 0){
+        mbis = mbisinit
+      }
+      mbisbaseline = mbis;
       if (mode !="widget"){
       if (plugin.prefs.theme == "light") {
         theme = "g10"}
@@ -159,8 +177,10 @@ function showMain(){
 
  function saveEdit(){
   startCalculation();
+  //prevent from saving when initial items
+  if (mbis != mbisinit){
   plugin.storage.setItem('mbis', mbis);
-  mbisbaseline = mbis;
+  mbisbaseline = mbis;}
   showMain();
  }
 
@@ -171,8 +191,10 @@ function showMain(){
  }
 
  function saveMBIs(){
+  //prevent from saving when initial items
+  if (mbis != mbisinit){
   plugin.storage.setItem('mbis', mbis);
-  mbisbaseline = mbis;
+  mbisbaseline = mbis;}
  }
 
  async function startCalculation(){
