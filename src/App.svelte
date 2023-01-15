@@ -178,7 +178,7 @@ function showMain(){
  function saveEdit(){
   startCalculation();
   //prevent from saving when initial items
-  if (mbis != mbisinit && mbis.length > 0){
+  if (mbis != mbisinit & mbis.length > 0){
   plugin.storage.setItem('mbis', mbis);
   mbisbaseline = mbis;}
   showMain();
@@ -192,7 +192,7 @@ function showMain(){
 
  function saveMBIs(){
   //prevent from saving when initial items
-  if (mbis != mbisinit && mbis.length > 0){
+  if (mbis != mbisinit & mbis.length > 0){
   plugin.storage.setItem('mbis', mbis);
   mbisbaseline = mbis;}
  }
