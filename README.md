@@ -4,7 +4,7 @@ The ⚖️Nomie MyBalance Plugin is a plugin for Nomie6-oss.
 
 ## About the ⚖️Nomie MyBalance Plugin
 
-The Nomie MyBalance Plugin enables you to identify areas which are important in your life and to track these areas manually or via a predefined calculation based on your Trackables. The idea is to give each of the areas a regular score between 0 and 1. Based on these scores you can follow each area infividually, but even better, you can also track the balance between al the areas: My Balance.
+The Nomie MyBalance Plugin enables you to identify areas which are important in your life and to track these areas manually or via a predefined calculation based on your Trackables. The idea is to give each of the areas a regular score between 0 and 1. Based on these scores you can follow each area individually, but even better, you can also track the balance between al the areas: My Balance.
 
 ## Installing the Plugin
 
