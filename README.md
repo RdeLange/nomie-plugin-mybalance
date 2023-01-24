@@ -4,7 +4,7 @@ The ⚖️Nomie MyBalance Plugin is a plugin for Nomie6-oss.
 
 ## About the ⚖️Nomie MyBalance Plugin
 
-The Nomie MyBalance Plugin enables you to identify areas which are important in your life and to track these areas manually or via a predefined calculation based on your Trackables. The idea is to give each of the areas a regular score between 0 and 1. Based on these scores you can follow each area infivisually, but even better, you can also track the balance between aal the areas: My Balance.
+The Nomie MyBalance Plugin enables you to identify areas which are important in your life and to track these areas manually or via a predefined calculation based on your Trackables. The idea is to give each of the areas a regular score between 0 and 1. Based on these scores you can follow each area infividually, but even better, you can also track the balance between al the areas: My Balance.
 
 ## Installing the Plugin
 
@@ -34,7 +34,7 @@ The easiest -and most simple- way of using the plugin is to adjust the scale via
 
 ### Calculated scores
 
-Instead of manually set the score for each category, you can also chooce to calculate the score based on a combination of Nomie trackables. This is best explained by an example. Let's asume you would like to track your hydration by using the three trackables (water, coffee, thee). Please click on the edit button on the Hydrate categoy and it will bring you to the calculation screen:
+Instead of manually set the score for each category, you can also choose to calculate the score based on a combination of Nomie trackables. This is best explained by an example. Let's asume you would like to track your hydration by using the three trackables (water, coffee, thee). Please click on the edit button on the Hydrate categoy and it will bring you to the calculation screen:
 
 ![](assets/20230123_221811_image.png)
 
@@ -46,7 +46,7 @@ Let's start by clicking the add Calculation button:
 
 ![](assets/20230123_222312_image.png)
 
-Now you can define your first parameter. Let's chooce Thee. You can pick the Thee Trackable by clicking on the list symbol in the Trackable field. Remember that the peosn symbol let's you pick a person. The tag symbol let's you provide a free format search term.
+Now you can define your first parameter. Let's choose Thee. You can pick the Thee Trackable by clicking on the list symbol in the Trackable field. Remember that the peosn symbol let's you pick a person. The tag symbol let's you provide a free format search term.
 
 After picking the Trackable, you start setting the parameters:
 
