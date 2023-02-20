@@ -332,7 +332,7 @@ on:loaded="{onLoaded}" />
 <MBISettings bind:mbi2edit={mbis[currentmbiindex]} plugin={plugin} pluginname={pluginname} pluginemoji={pluginemoji} theme={theme} on:exitedit={() => {exitEdit()}} on:saveedit={() => {saveEdit()}}/>
 {/if}
 {:else if mode == "widget"}
-<MBIWidget bind:mbis={mbis}></MBIWidget>
+<MBIWidget bind:mbis={mbis} theme={theme}></MBIWidget>
 {/if}
 {/if}
 

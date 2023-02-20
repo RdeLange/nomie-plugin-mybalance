@@ -1,8 +1,10 @@
 <script>
   import { onMount } from "svelte";
 export let mbis;
+export let theme;
 let widgetparams = [];
 let showwidget = false;
+let bgcolor = "transparent";
 
 function initwidget() {
   for (let i in mbis) {
@@ -14,6 +16,9 @@ function initwidget() {
     else {scale = mbis[i].scale*95}
     let label = mbis[i].label;
     widgetparams.push([label,scale.toFixed(0).toString()+"%"])
+  }
+  if (theme =="g100"){
+    bgcolor = "black"
   }
   showwidget = true;
 }
@@ -37,6 +42,7 @@ onMount(
     margin-top:-2%;
     transform: rotateX(180deg);
     border-top: 1px solid black;
+    
 }
 
 span.bar {
@@ -93,7 +99,7 @@ span.bar {
 </style>
 {#if showwidget}
 
-<div class="parent">
+<div class="parent" style="background-color:{bgcolor}">
   <span id="first" class="bar" style="height:{widgetparams[0][1]};"><p class="label">{widgetparams[0][0]}</p></span>
   <span id="second" class="bar" style="height:{widgetparams[1][1]};"><p class="label">{widgetparams[1][0]}</p></span>
   <span id="third" class="bar" style="height:{widgetparams[2][1]};"><p class="label">{widgetparams[2][0]}</p></span>
